@@ -3,7 +3,7 @@
 #
 
 # Add source to this project's executable.
-add_executable (football-simulation "src/main.cpp" )
+add_executable (football-simulation "src/main.cpp"  "include/team.h" "src/team.cpp" "include/league.h" "src/league.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET football-simulation PROPERTY CXX_STANDARD 20)

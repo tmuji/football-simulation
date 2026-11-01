@@ -1,7 +1,18 @@
 ﻿#include <iostream>
+#include "../include/team.h"
+#include "../include/league.h"
+#include <vector>
 
 int main()
 {
-	std::cout << "Hello!" << std::endl;
+
+	League myLeague("My League", 20);
+	myLeague.createMockLeague();
+	myLeague.printLeague();
+
+
+
+	
+
 	return 0;
 }
