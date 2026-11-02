@@ -20,6 +20,8 @@ public:
 
 	void createMockLeague();
 
+	void generateSchedule();
+
 
 	// helper functions
 	void setName(const std::string newName) { name = newName; }
