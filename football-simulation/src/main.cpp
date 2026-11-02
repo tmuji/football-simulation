@@ -6,9 +6,10 @@
 int main()
 {
 
-	League myLeague("My League", 20);
+	League myLeague("My League", 10);
 	myLeague.createMockLeague();
-	myLeague.printLeague();
+	//myLeague.printLeague();
+	myLeague.generateSchedule();
 
 
 
